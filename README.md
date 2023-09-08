@@ -18,3 +18,9 @@ CREATE TABLE question (
     correct_answer VARCHAR(255),
     hint VARCHAR(255)
 );
+
+### Sample Data
+NSERT INTO question (category, difficulty_level, option1, option2, option3, option4, question_title, correct_answer)
+VALUES ('Geography', 'Easy', 'What is the capital of France?', 'Paris', 'London', 'Rome', 'Berlin', 'Paris', 'City is famous for Eiffel tower');
+
+
