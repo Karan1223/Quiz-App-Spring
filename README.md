@@ -3,7 +3,7 @@
 
 The backend was created in SpringBoot and the database used is PostgreSQL.
 
-## Command to create database and table. Also insert data into table.
+## Command to create database and table.
 use questiondb;
 
 CREATE TABLE question (
@@ -19,7 +19,7 @@ CREATE TABLE question (
     hint VARCHAR(255)
 );
 
-### Sample Data
+## Sample Query to insert data into table.
 NSERT INTO question (category, difficulty_level, option1, option2, option3, option4, question_title, correct_answer)
 VALUES ('Geography', 'Easy', 'What is the capital of France?', 'Paris', 'London', 'Rome', 'Berlin', 'Paris', 'City is famous for Eiffel tower');
 
