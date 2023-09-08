@@ -24,3 +24,4 @@ NSERT INTO question (category, difficulty_level, option1, option2, option3, opti
 VALUES ('Geography', 'Easy', 'What is the capital of France?', 'Paris', 'London', 'Rome', 'Berlin', 'Paris', 'City is famous for Eiffel tower');
 
 
+
