@@ -20,7 +20,7 @@ CREATE TABLE question (
 );
 
 ## Sample Query to insert data into table.
-NSERT INTO question (category, difficulty_level, option1, option2, option3, option4, question_title, correct_answer)
+NSERT INTO question (category, difficulty_level, option1, option2, option3, option4, question_title, correct_answer, hint)
 VALUES ('Geography', 'Easy', 'What is the capital of France?', 'Paris', 'London', 'Rome', 'Berlin', 'Paris', 'City is famous for Eiffel tower');
 
 
